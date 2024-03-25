@@ -1,5 +1,10 @@
 body {
     font-family: "Poppins", "Verdana", "Open Sans";
+    margin: 0;
+}
+
+body h1 {
+    text-transform: uppercase;
 }
 
 
@@ -10,16 +15,12 @@ nav,
     display: none;
 }
 
-body {
-    margin: 0;
-}
 
 nav {
-    background: #FFD280
+    background: #FFD280;
     position: absolute;
     width: -webkit-fill-available;
     margin-top: 50px;
-    transpar
 }
 
 nav a {
@@ -29,7 +30,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #fff;
+    color: #FFF;
 }
 
 #menu-checkbox:checked ~ nav {
@@ -61,7 +62,10 @@ header img,
 /* Section under navbar with opening hour */
 
 .openinghours {
-    background-color: #FFB01F
+    background-color: #FFB01F;
+    text-align: center;
+    color: #FFF;
+    font-size: 1rem;
 }
 
 /* Styling tour bottom */
@@ -69,4 +73,43 @@ header img,
 .cta {
     background-color: #000;
     color: white;
+    text-transform: uppercase ;
+}
+
+/* Footer */
+
+footer {
+    background: #FFD280;
+}
+
+.footer-c {
+    display: grid;
+    grid-template-rows: 120px 180px 180px 180px;
+    margin: 20px;
+}
+
+.footer-heading {
+    display: grid;
+    grid-template-rows: 45px 30px 30px 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.9rem;
+}
+
+a:hover {
+    color: #FFF;
+}
+
+footer h2 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.footer-b {
+    font-size: 0.5rem;
+    text-align: center;
 }

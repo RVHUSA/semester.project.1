@@ -1,0 +1,40 @@
+.contact {
+    margin: 30px 20px;
+}
+
+h1 {
+    font-size: 1.3rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 0.9rem;
+}
+
+.contact-form {
+    margin-top: 40px;
+}
+
+input, select, textarea {
+    border: 1px solid #d9d9d9;
+    border-radius: 7px;
+    margin: 10px 10px 10px 0px;
+    padding: 15px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.cta {
+    padding: 15px 31px; 
+}
+
+textarea {
+    padding: 15px 15px 120px 15px;
+}
