@@ -1,0 +1,12 @@
+body {
+    font-family: "Poppins", "Verdana", "Open Sans";
+}
+
+nav,
+#menu-checkbox {
+    display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+    display: grid;
+}
