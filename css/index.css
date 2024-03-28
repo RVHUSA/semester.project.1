@@ -1,0 +1,76 @@
+/* Header */
+
+
+
+
+/* Blue part / explore */
+
+.explore {
+    background-color: #CCEAFA;
+    padding: 5px;
+}
+
+
+
+/* Yellow part / info */
+
+.info {
+    background-color: #FFFED6;
+}
+
+.info .cta {
+    text-align: center;
+}
+
+.info h1 {
+    font-size: 1.2rem;
+}
+
+
+/* Exhibitions and events */
+
+
+
+
+
+
+/* Applies to all */
+.events img,
+.exhibition-list img,
+.header1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    font-size: 0.9rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+.explore h1,
+.header1 h1,
+.exhibition-list h1,
+.upcoming-events h1 {
+    text-transform: uppercase;
+
+}
+
+.header1 h1,
+.exhibition-list h1,
+.upcoming-events h1, 
+.upcoming-events h2 {
+    text-align: center;
+}
+
+
+
+/* Text that only display on larger screen/desktop */
+
+.tour-info,
+.upcoming-events p {
+    display: none;
+}
+

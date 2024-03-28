@@ -3,10 +3,6 @@ body {
     margin: 0;
 }
 
-body h1 {
-    text-transform: uppercase;
-}
-
 
 /* Navbar */
 
@@ -73,7 +69,8 @@ header img,
 .cta {
     background-color: #000;
     color: white;
-    text-transform: uppercase ;
+    text-transform: uppercase;
+    padding: 15px;
 }
 
 /* Footer */
