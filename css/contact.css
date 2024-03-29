@@ -1,19 +1,30 @@
-.contact {
-    margin: 30px 20px;
-}
-
 h1 {
     font-size: 1.3rem;
 }
 
-h2 {
-    font-size: 1rem;
+.contact {
+    margin: 30px 20px;
 }
 
-p {
-    font-size: 0.9rem;
+.quest,
+.mail,
+.tlf {
+    margin-top: 2px;
+    margin-bottom: 25px;
 }
 
+.contact-text h1,
+.contact-text h2 {
+    margin: 0;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.space {
+    margin: 2px;
+}
 
 /* Form */
 
