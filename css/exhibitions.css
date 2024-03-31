@@ -1,0 +1,24 @@
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+
+.intro-blue {
+    background: #CCEAFA;
+    padding: 30px 20px;
+}
+
+main h1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.upcoming-events2,
+.exhibition-list2 {
+    margin: 0px 15px;
+}
+
+
+
+
