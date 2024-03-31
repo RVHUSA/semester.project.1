@@ -1,0 +1,53 @@
+h1 {
+    font-size: 1.2rem;
+}
+
+.transport-blue {
+    background: #CCEAFA;
+}
+
+.yellow {
+    background: #FFFED6;
+}
+
+.red {
+background: #F7D2DE;
+}
+
+.transport-blue, 
+.red,
+.yellow{
+    padding: 30px 20px;
+}
+
+main h1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+main h2 {
+    font-weight: bolder;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+
+.yellow p,
+.red p, 
+.transport-blue p {
+    margin-top: 2px;
+    margin-bottom: 25px;
+}
+
+.yellow h2,
+.red h2,
+.transport-blue h2 {
+    margin: 0px;
+}
+
+
+
+room, se på den ift mellomrom
