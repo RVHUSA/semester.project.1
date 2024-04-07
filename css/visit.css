@@ -1,28 +1,9 @@
-h1 {
-    font-size: 1.2rem;
-}
 
-.transport-blue {
-    background: #CCEAFA;
-}
-
-.yellow {
-    background: #FFFED6;
-}
-
-.red {
-background: #F7D2DE;
-}
-
-.transport-blue, 
-.red,
-.yellow{
-    padding: 30px 20px;
-}
-
+/* Applies to all */
 main h1 {
     text-transform: uppercase;
     font-weight: bolder;
+    margin: 15px 20px;
 }
 
 main h2 {
@@ -33,6 +14,37 @@ img {
     max-width: 100%;
     height: auto;
     margin-top: 40px;
+}
+
+h1 {
+    font-size: 1.2rem;
+}
+
+
+/* Blue part / Transport */
+.transport-blue {
+    background: #CCEAFA;
+    display: grid;
+}
+
+
+/* Yellow part / Practical info */
+.yellow {
+    background: #FFFED6;
+}
+
+
+/* Red part / Get involved */
+.red {
+    background: #F7D2DE;
+}
+
+
+/* Red, Yellow and Blue part / Applies to all */
+.transport-blue, 
+.red,
+.yellow {
+    padding: 10px 20px;
 }
 
 .yellow p,
@@ -49,5 +61,14 @@ img {
 }
 
 
+/* Red and Yellow part */
+.practical h1,
+.involved h1 {
+    padding-top: 30px;
+}
 
-room, se på den ift mellomrom
+
+#room {
+    margin-bottom: 5px;
+}
+

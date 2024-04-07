@@ -1,5 +1,7 @@
 h1 {
     font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: bolder;
 }
 
 .contact {
