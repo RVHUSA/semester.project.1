@@ -1,12 +1,8 @@
+/* Applies to all */
 img {
     max-width: 100%;
     height: auto;
     margin-top: 40px;
-}
-
-.intro-blue {
-    background: #CCEAFA;
-    padding: 1px 20px;
 }
 
 main h1 {
@@ -18,6 +14,26 @@ main h2 {
     margin: 0px;
 }
 
+main {
+    margin-bottom: 40px;
+}
+
+
+
+/* Blue part / Intro */
+.intro-blue {
+    background: #CCEAFA;
+    padding: 1px 20px;
+}
+
+.intro h1 {
+    padding: 0px 15px;
+    margin: 15px 0px;
+    }
+
+
+
+/* Exhibitions and events */
 .exhibition-list2 p,
 .upcoming-events2 p {
     margin: 2px 0px;
@@ -26,11 +42,6 @@ main h2 {
 .upcoming-events2,
 .exhibition-list2 {
     margin: 0px 15px;
-}
-
-.intro h1 {
-padding: 0px 15px;
-margin: 15px 0px;
 }
 
 .upcoming-events2 h1 {

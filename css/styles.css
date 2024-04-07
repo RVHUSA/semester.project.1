@@ -1,5 +1,6 @@
+/* Applies to all */
 body {
-    font-family: "Poppins", "Verdana", "Open Sans";
+    font-family: "Poppins", "Verdana", "Open Sans", "Arial";
     margin: 0;
 }
 
@@ -11,8 +12,8 @@ h2 {
     font-size: 1rem;
 }
 
-/* Navbar */
 
+/* Navbar */
 nav,
 #menu-checkbox {
     display: none;
@@ -25,7 +26,6 @@ nav {
     margin-top: 50px;
     height: -webkit-fill-available;
 }
-
 
 nav a {
     color: #000;
@@ -43,6 +43,7 @@ nav a:hover {
     padding-top: 5px;
 }
 
+/* Header */
 header {
     display: flex;
     justify-content: space-between;
@@ -57,7 +58,6 @@ header img {
 .material-symbols-outlined {
     font-size: 35px;
     margin-right: 10px;
-
 }
 
 header img,
@@ -65,8 +65,8 @@ header img,
     margin-top: 5px;
 }
 
-/* Section under navbar with opening hour */
 
+/* Section under navbar with opening hour */
 .openinghours {
     background-color: #FFB01F;
     text-align: center;
@@ -74,8 +74,8 @@ header img,
     font-size: 0.9rem;
 }
 
-/* Styling tour bottom */
 
+/* Styling tour bottom */
 .cta {
     background-color: #000;
     color: white;
@@ -83,8 +83,8 @@ header img,
     padding: 15px;
 }
 
-/* Footer */
 
+/* Footer */
 footer {
     background: #FFD280;
 }
