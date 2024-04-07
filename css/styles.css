@@ -18,13 +18,14 @@ nav,
     display: none;
 }
 
-
 nav {
     background: #FFD280;
     position: absolute;
     width: -webkit-fill-available;
     margin-top: 50px;
+    height: -webkit-fill-available;
 }
+
 
 nav a {
     color: #000;
@@ -38,6 +39,8 @@ nav a:hover {
 
 #menu-checkbox:checked ~ nav {
     display: grid;
+    grid-template-rows: 35px 35px 35px 35px;
+    padding-top: 5px;
 }
 
 header {

@@ -1,13 +1,24 @@
 /* Header */
 
-
+.header1 h1 {
+    margin: 25px;
+}
 
 
 /* Blue part / explore */
 
+.explore h1 {
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
 .explore {
     background-color: #CCEAFA;
-    padding: 5px;
+    padding: 2px 25px;
+}
+
+.hide1 {
+    display: none;
 }
 
 
@@ -16,7 +27,11 @@
 
 .info {
     background-color: #FFFED6;
+    padding: 20px 25px;
+    display: grid;
+    grid-template-rows: 65px 25px 25px 25px 25px 40px 80px;
 }
+
 
 .info .cta {
     text-align: center;
@@ -24,13 +39,30 @@
 
 .info h1 {
     font-size: 1.2rem;
+    margin-top: 0px;
 }
 
 
 /* Exhibitions and events */
 
+.exhibition-list h2,
+.upcoming-events h2 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.exgrid {
+    display: grid;
+    grid-template-columns: 140px 140px;
+    grid-gap: 16px;
+    margin: 0px 12px;
+}
 
 
+.exhibition-list h1,
+.upcoming-events h1 {
+    margin-top: 50px;
+}
 
 
 
