@@ -48,7 +48,9 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 10px;
 }
+
 
 header img {
     max-width: 200px;
@@ -120,3 +122,29 @@ footer h2 {
     font-size: 0.5rem;
     text-align: center;
 }
+
+
+/* Media*/
+
+@media (min-width: 600px){
+
+.footer-c {
+    grid-template-rows: 200px;
+    grid-template-columns: 270px 200px;
+    justify-content: center;
+}
+
+}
+
+
+@media (min-width: 768px){
+
+.footer-c {
+    grid-template-columns: 200px 190px 190px 190px;
+    justify-content: space-evenly;
+}
+    
+}
+
+
+
