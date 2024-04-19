@@ -80,9 +80,14 @@ header img,
 /* Styling tour bottom */
 .cta {
     background-color: #000;
-    color: white;
+    color: #FFF;
     text-transform: uppercase;
     padding: 15px;
+}
+
+.cta:hover {
+    background-color: #FFB01F;
+    color: #FFF;
 }
 
 

@@ -60,3 +60,26 @@ main {
 
 
 
+/* Media*/
+
+@media (min-width: 900px){
+
+    .exhibition-list2,
+    .upcoming-events2grid {
+        display: grid;
+        grid-template-columns: 400px 400px;
+        justify-content: space-evenly;
+    }
+    
+ }
+
+ @media (min-width: 1090px){
+
+    .exhibition-list2,
+    .upcoming-events2grid {
+        display: grid;
+        grid-template-columns: 500px 500px;
+        justify-content: space-evenly;
+    }
+    
+ }
