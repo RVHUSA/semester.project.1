@@ -20,7 +20,7 @@ nav,
 }
 
 nav {
-    background: #FFD280;
+    background: #FFC55A;
     position: absolute;
     width: -webkit-fill-available;
     margin-top: 50px;
@@ -34,7 +34,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #FFF;
+    color: #000;
 }
 
 #menu-checkbox:checked ~ nav {
@@ -87,13 +87,13 @@ header img,
 
 .cta:hover {
     background-color: #FFB01F;
-    color: #FFF;
+    color: #000;
 }
 
 
 /* Footer */
 footer {
-    background: #FFD280;
+    background: #FFC55A;
 }
 
 .footer-c {
@@ -114,13 +114,14 @@ a {
 }
 
 a:hover {
-    color: #FFF;
+    color: #fff;
 }
 
 footer h2 {
     text-transform: uppercase;
     font-weight: bolder;
     font-size: 1rem;
+    color: #000;
 }
 
 .footer-b {
@@ -147,6 +148,15 @@ footer h2 {
 .footer-c {
     grid-template-columns: 200px 190px 190px 190px;
     justify-content: space-evenly;
+}
+
+nav a {
+    margin: 15px;
+    font-size: 1.3rem;
+}
+
+#menu-checkbox:checked ~ nav {
+    grid-template-rows: 40px 40px 40px 40px;
 }
     
 }
