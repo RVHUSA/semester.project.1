@@ -100,7 +100,6 @@
 
 
 
-
 /* Media*/
 
 @media (min-width: 425px) {
@@ -218,9 +217,7 @@
 
 @media (min-width: 1024px) {
 
-    .exgrid {
-        grid-template-columns: 520px 520px;
-    }
+
 
 
     .header1 img {

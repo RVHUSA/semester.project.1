@@ -82,12 +82,16 @@ header img,
     background-color: #000;
     color: #FFF;
     text-transform: uppercase;
-    padding: 15px;
+    padding: 15px 100px;
 }
 
 .cta:hover {
     background-color: #FFB01F;
     color: #000;
+}
+
+.info a {
+    justify-self: center;
 }
 
 
