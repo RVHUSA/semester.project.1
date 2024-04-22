@@ -64,7 +64,7 @@ header img {
 
 header img,
 .material-symbols-outlined {
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 
@@ -74,6 +74,10 @@ header img,
     text-align: center;
     color: #FFF;
     font-size: 0.9rem;
+}
+
+.openinghours h2 {
+    text-transform: uppercase;
 }
 
 
@@ -163,6 +167,23 @@ nav a {
     grid-template-rows: 40px 40px 40px 40px;
 }
     
+}
+
+
+@media (min-width: 1024px) {
+
+    header img {
+        max-width: 250px;
+    }
+
+    .material-symbols-outlined {
+        font-size: 50px;
+    }
+
+    nav {
+        margin-top: 70px;
+    }
+
 }
 
 

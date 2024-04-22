@@ -212,13 +212,15 @@
         margin: 40px 0px;
     }
 
+    .exhibition h2,
+    .upcoming-events h2 {
+        font-size: 1.1rem;
+    }
+
 }
 
 
 @media (min-width: 1024px) {
-
-
-
 
     .header1 img {
         width: 100%;

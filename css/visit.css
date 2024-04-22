@@ -17,14 +17,15 @@ img {
 }
 
 h1 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 
 /* Blue part / Transport */
 .transport-blue {
     background: #CCEAFA;
-    display: grid;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -71,4 +72,20 @@ h1 {
 #room {
     margin-bottom: 5px;
 }
+
+/* Media */
+
+@media (min-width: 768px) {
+
+    .transport-blue {
+        flex-direction: row;
+    }
+
+    .transport {
+        margin: 0px 10px;
+    }
+
+}
+
+
 

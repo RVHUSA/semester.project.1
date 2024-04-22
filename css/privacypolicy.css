@@ -1,0 +1,62 @@
+.pp h2 {
+    margin-bottom: 0;
+}
+
+.pp h1 {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.pp p {
+    margin-top: 0;
+}
+
+.pp {
+    margin: 20px;
+}
+
+li {
+    margin: 6px 0px;
+}
+
+ul,
+.last {
+    margin-bottom: 30px;
+}
+
+.boldli,
+.info-box h2 {
+    font-weight: bolder;
+}
+
+
+
+/* Styling summary bottoms */
+
+summary {
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px 0px;
+    padding: 10px;
+    color: #000;
+    background-color: #FFC55A;
+}
+
+details > p {
+    padding: 0px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 30px;
+}
+
+summary:focus,
+summary:hover {
+    background-color: #ffd07a;
+}
+
+.summary-box {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
