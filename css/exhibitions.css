@@ -18,16 +18,20 @@ main {
     margin-bottom: 40px;
 }
 
+h2 {
+    font-weight: bolder;
+}
+
 
 
 /* Blue part / Intro */
 .intro-blue {
     background: #CCEAFA;
-    padding: 1px 20px;
+    padding: 1px 25px;
 }
 
 .intro h1 {
-    padding: 0px 15px;
+    padding: 0px 25px;
     margin: 15px 0px;
     }
 
