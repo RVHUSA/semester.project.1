@@ -14,7 +14,8 @@
 }
 
 .tac {
-    margin: 20px;
+    margin: 25px;
+    max-width: 800px;
 }
 
 li {
@@ -48,7 +49,6 @@ summary {
 details > p {
     padding: 0px 15px;
     font-size: 1rem;
-    font-weight: bold;
     border: 30px;
 }
 
