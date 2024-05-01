@@ -28,6 +28,10 @@ h1 {
     flex-direction: column;
 }
 
+ul {
+    padding-left: 16px;
+}
+
 
 /* Yellow part / Practical info */
 .yellow {

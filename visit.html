@@ -19,7 +19,7 @@
         <div class="logo">
             <a href="index.html"><img src="images/logoCSMorangesmall.png" alt="Community Science Museum logo" class="logo"></a>
         </div>
-        <label for="menu-checkbox" class="hamburger-icon"><span class="material-symbols-outlined">menu</span></label>
+        <label for="menu-checkbox" class="hamburger-icon" tabindex="0"><span class="material-symbols-outlined">menu</span></label>
         <input type="checkbox" id="menu-checkbox">
         <nav>
             <a href="visit.html">Visit</a>
@@ -33,7 +33,7 @@
             <h2>Open until 16:00 today</h2>
         </section>
     <main>
-        <section class="transport-list">
+        <section class="transport-list" tabindex="0">
             <h1>This is how you get to the museum</h1>
             <div class="transport-blue">
             <div class="transport">
@@ -44,8 +44,10 @@
             <div class="transport">
                 <h2>Public Transport</h2>
                 <p id="room">The nearest stop is Storgata (bus) or Sandnes Sentrum (bus, train).</p>
-                <p id="room">- Public transport (Kolumbus, Vy)</p>
-                <p>- Google Maps</p>
+                <ul>
+                    <li id="room">Public transport (Kolumbus, Vy)</li>
+                    <li>Google Maps</li>
+                </ul>
             </div>
             <div class="transport">
                 <h2>Walk or Cycle</h2>
@@ -53,7 +55,7 @@
             </div>
             </div>
         </section>
-        <section class="practical">
+        <section class="practical" tabindex="0">
             <h1>Practical info</h1>
             <div class="yellow">
                 <h2>Admission</h2>
@@ -67,10 +69,10 @@
                     <p>There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</p>
             </div>
         </section>
-            <div class="picture1">
-                <img src="images/visit1.jpg" alt="One of the museum's exhibition rooms, which is completely white with four benches and columns, as well as various objects on the floor and wall">
+            <div class="picture1" tabindex="0">
+                <img src="images/visit1.jpg" alt="One of the museum's exhibition rooms, which is completely white with various objects on the floor and wall">
             </div>
-        <section class="involved">
+        <section class="involved" tabindex="0">
             <h1>Get involved</h1>
             <div class="red">
                 <h2>Support</h2>
@@ -82,7 +84,7 @@
                     <p>Are you interested in working in a museum? Do you enjoy the fun and excitement of sharing the wonders of nature with people? Well you could be just the right person to enjoy an internship at the museum. You’ll be learning from a number of different academics and people who are passionate about science and sharing it with the wider community.</p>
             </div>
         </section>
-            <div class="picture2">
+            <div class="picture2" tabindex="0">
                 <img src="images/visit2.jpg" alt="Exhibition of a skeleton head where you can see the inside">
             </div>
     </main>
