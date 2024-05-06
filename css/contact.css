@@ -29,6 +29,10 @@ h1 {
     margin: 2px;
 }
 
+body {
+    margin-top: 84px;
+}
+
 /* Form */
 
 .contact-form {

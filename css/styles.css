@@ -2,6 +2,7 @@
 body {
     font-family: "Poppins", "Verdana", "Open Sans", "Arial";
     margin: 0;
+    margin-top: 60px;
 }
 
 p {
@@ -21,9 +22,9 @@ nav,
 
 nav {
     background: #FFC55A;
-    position: absolute;
+    position: inherit;
     width: -webkit-fill-available;
-    margin-top: 50px;
+    margin-top: 62px;
     height: -webkit-fill-available;
 }
 
@@ -49,7 +50,13 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 10px;
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 
@@ -73,7 +80,7 @@ header img,
 .openinghours {
     background-color: #FFB01F;
     text-align: center;
-    color: #FFF;
+    color: #000;
     font-size: 0.9rem;
 }
 

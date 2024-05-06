@@ -63,6 +63,11 @@
     flex-direction: column;
 }
 
+.exhibition a:hover,
+.events a:hover {
+    color: #FFB01F;
+}
+
 
 
 /* Applies to all */

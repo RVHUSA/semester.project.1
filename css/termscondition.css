@@ -32,6 +32,10 @@ ul,
     font-weight: bolder;
 }
 
+body {
+    margin-top: 84px;
+}
+
 
 
 /* Styling summary bottoms */

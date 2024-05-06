@@ -20,6 +20,10 @@ h1 {
     font-size: 1.4rem;
 }
 
+body {
+    margin-top: 84px;
+}
+
 
 /* Blue part / Transport */
 .transport-blue {
