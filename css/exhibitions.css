@@ -112,6 +112,10 @@ color: #FFB01F;
         margin-left: 45px;
         text-align: left;
     }
+
+    .exploreyellow h1 {
+        font-size: 1.4rem;
+    }
     
 }
 
@@ -145,8 +149,19 @@ color: #FFB01F;
 .exhibition-list2,
 .upcoming-events2grid {
     display: grid;
-    grid-template-columns: 600px 600px;
+    grid-template-columns: 500px 500px;
     justify-content: space-evenly;
 }
     
 }
+
+@media (min-width: 1250px) {
+
+    .exhibition-list2,
+    .upcoming-events2grid {
+        display: grid;
+        grid-template-columns: 600px 600px;
+        justify-content: space-evenly;
+    }
+        
+    }
