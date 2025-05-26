@@ -1,12 +1,22 @@
 
 /* Applies to all */
+
 main h1 {
-    text-transform: uppercase;
-    font-weight: bolder;
+    font-size: 1.4rem;
     margin: 15px 25px;
 }
 
 main h2 {
+    font-size: 1rem;
+}
+
+main h1,
+main h2 {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+main h3 {
     font-weight: bolder;
 }
 
@@ -30,6 +40,11 @@ body {
     background: #CCEAFA;
     display: flex;
     flex-direction: column;
+}
+
+.transport h2 {
+    text-transform: none;
+    font-weight: 800;
 }
 
 ul {
@@ -63,17 +78,21 @@ ul {
     margin-bottom: 25px;
 }
 
-.yellow h2,
-.red h2,
-.transport-blue h2 {
+.yellow h3,
+.red h3,
+.transport-blue h3 {
     margin: 0px;
+    font-size: 1rem;
+    font-weight: 800;
 }
 
 
 /* Red and Yellow part */
-.practical h1,
-.involved h1 {
+.practical h2,
+.involved h2 {
     padding-top: 30px;
+    padding-left: 30px;
+    font-size: 1.4rem;
 }
 
 
