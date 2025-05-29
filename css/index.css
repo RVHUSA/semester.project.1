@@ -68,8 +68,6 @@
     color: #FFB01F;
 }
 
-
-
 /* Applies to all */
 .events img,
 .exhibition-list img,
@@ -93,17 +91,11 @@
     text-align: center;
 }
 
-
-
 /* Text that only display on larger screen/desktop */
 .hide1,
 .upcoming-events p {
     display: none;
 }
-
-
-
-
 
 /* Media*/
 
@@ -130,7 +122,6 @@
     }
 
 }
-
 
 
 @media (min-width: 768px) {

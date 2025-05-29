@@ -1,13 +1,18 @@
 
 /* Applies to all */
 
-main h1 {
-    font-size: 1.4rem;
-    margin: 15px 25px;
+body {
+    margin-top: 84px;
 }
 
-main h2 {
-    font-size: 1rem;
+h1 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+main h1 {
+    margin: 15px 25px;
 }
 
 main h1,
@@ -16,8 +21,17 @@ main h2 {
     font-weight: 800;
 }
 
-main h3 {
-    font-weight: bolder;
+main h2 {
+    font-size: 1rem;
+}
+
+main h3,
+.yellow h3,
+.red h3,
+.transport-blue h3 {
+    font-weight: 800;
+    font-size: 1rem;
+    margin: 0;
 }
 
 img {
@@ -26,45 +40,13 @@ img {
     margin-top: 40px;
 }
 
-h1 {
-    font-size: 1.4rem;
-}
-
-body {
-    margin-top: 84px;
-}
-
-
-/* Blue part / Transport */
-.transport-blue {
-    background: #CCEAFA;
-    display: flex;
-    flex-direction: column;
-}
-
-.transport h2 {
-    text-transform: none;
-    font-weight: 800;
-}
-
 ul {
     padding-left: 16px;
 }
 
 
-/* Yellow part / Practical info */
-.yellow {
-    background: #FFFED6;
-}
+/* Sections - Blue, Yellow, Red */
 
-
-/* Red part / Get involved */
-.red {
-    background: #F7D2DE;
-}
-
-
-/* Red, Yellow and Blue part / Applies to all */
 .transport-blue, 
 .red,
 .yellow {
@@ -78,23 +60,35 @@ ul {
     margin-bottom: 25px;
 }
 
-.yellow h3,
-.red h3,
-.transport-blue h3 {
-    margin: 0px;
-    font-size: 1rem;
+.transport-blue {
+    background: #CCEAFA;
+    display: flex;
+    flex-direction: column;
+}
+
+.yellow {
+    background: #FFFED6;
+}
+
+.red {
+    background: #F7D2DE;
+}
+
+
+.transport h2 {
+    text-transform: none;
     font-weight: 800;
 }
 
 
-/* Red and Yellow part */
+/* Section Headings - Yellow and red */
+
 .practical h2,
 .involved h2 {
     padding-top: 30px;
     padding-left: 30px;
     font-size: 1.4rem;
 }
-
 
 #room {
     margin-bottom: 5px;
