@@ -27,7 +27,6 @@ body {
 }
 
 
-
 /* Blue part / Intro */
 .intro-blue {
     background: #CCEAFA;
@@ -36,7 +35,7 @@ body {
 
 .intro h1 {
     padding: 0px 25px;
-    margin: 15px 0px;
+    margin: 100px 0px 15px;
     }
 
 
@@ -95,39 +94,35 @@ body {
 color: #FFB01F;
 }
 
+.exhibition2 img,
+.events2 img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+.exhibition2 img:hover,
+.events2 img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
 
-/* Media*/
+.exhibition-list2,
+.upcoming-events2grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
 
+/* Media Queries*/
 @media (min-width: 900px) {
-
-    .exhibition-list2,
-    .upcoming-events2grid {
-        display: grid;
-        grid-template-columns: 400px 400px;
-        justify-content: space-evenly;
-    }
-
     .upcoming-events2 h1 {
         margin-left: 45px;
         text-align: left;
     }
-
-    .exploreyellow h1 {
-        font-size: 1.4rem;
-    }
-    
 }
 
 @media (min-width: 1030px) {
-
-    .exhibition-list2,
-    .upcoming-events2grid {
-        display: grid;
-        grid-template-columns: 470px 470px;
-        justify-content: space-evenly;
-    }
-
     .upcoming-events2 h1 {
         margin-top: 80px;
         font-size: 1.4rem;
@@ -140,28 +135,4 @@ color: #FFB01F;
     .intro-blue p {
         font-size: 1rem;
     }
-
 }
-
-
-@media (min-width: 1100px) {
-
-.exhibition-list2,
-.upcoming-events2grid {
-    display: grid;
-    grid-template-columns: 500px 500px;
-    justify-content: space-evenly;
-}
-    
-}
-
-@media (min-width: 1250px) {
-
-    .exhibition-list2,
-    .upcoming-events2grid {
-        display: grid;
-        grid-template-columns: 600px 600px;
-        justify-content: space-evenly;
-    }
-        
-    }

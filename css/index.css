@@ -1,5 +1,5 @@
-/* Header */
-.header1 h1 {
+ /* Header */
+ .header1 h1 {
     margin: 25px;
 }
 
@@ -68,6 +68,19 @@
     color: #FFB01F;
 }
 
+.exhibition img,
+.events img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.exhibition img:hover,
+.events img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
 /* Applies to all */
 .events img,
 .exhibition-list img,
@@ -97,140 +110,43 @@
     display: none;
 }
 
-/* Media*/
-
-@media (min-width: 425px) {
-
-    .exgrid {
-        grid-template-columns: 195px 195px;
-    }
-
-}
-
-@media (min-width: 550px) {
-
-    .exgrid {
-        grid-template-columns: 255px 255px;
-    }
-
-}
-
-@media (min-width: 680px) {
-
-    .exgrid {
-        grid-template-columns: 320px 320px;
-    }
-
-}
-
-
-@media (min-width: 768px) {
-
-    .exgrid {
-        grid-template-columns: 375px 375px;
-    }
-
-    .explore p,
-    .info p {
-        font-size: 1.1rem;
-    }
-
-    .explore h1 {
-        font-size: 1.4rem;
-    }
-
-    .info {
-        margin-top: 40px;
-        grid-template-rows: 40px 30px 30px 30px 30px 40px 130px;
-    }
-
-    .info h2 {
-        font-size: 1.2rem;
-    }
-
-    .info h1 {
-        font-size: 1.4rem;
-    }
-
-    .events {
-        margin: 10px;
-    }
-
-    .allevents {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin: 25px;
-    }
-
-    .allevents p {
-        margin: 0;
-    }
-
-    .upcoming-events h2 {
-        text-align: start;
-    }
-
-    .exhibition-list h1,
-    .upcoming-events h1 {
-    font-size: 1.8rem;
-}
-
-.header1 img {
-    width: 100%;
-    height: 500px;
-}
-
-.upcoming-events {
-    margin-bottom: 60px;
-}
-
-
-}
-
 @media (min-width: 900px) {
-
     .hide1,
     .upcoming-events p {
         display: block;
     }
-
-    .exgrid {
-        grid-template-columns: 440px 440px;
-        justify-content: space-evenly;
-    }
-
-    .exhibition-list h1 {
-        margin-bottom: 40px;
-    }
-
-    .header1 h1 {
-        font-size: 2.3rem;
-        margin: 40px 0px;
-    }
-
-    .exhibition h2,
-    .upcoming-events h2 {
-        font-size: 1.1rem;
-    }
-
 }
 
 
-@media (min-width: 1024px) {
 
-    .header1 img {
-        width: 100%;
-        height: 600px;
-    }
-    
+/* Grid layout for exhibitions */
+.exgrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+    margin: 0 12px;
+    justify-items: center;
 }
 
-@media (min-width: 1110px) {
-
-    .exgrid {
-        grid-template-columns: 580px 580px;
-    }
-    
-
+/* Events layout */
+.allevents {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 25px;
 }
+
+@media (min-width: 768px) {
+    .allevents {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+

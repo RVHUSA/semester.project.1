@@ -21,6 +21,10 @@ h1 {
     margin: 0;
 }
 
+.contact-text {
+    margin: 100px 0px 15px;
+}
+
 .underline {
     text-decoration: underline;
 }
